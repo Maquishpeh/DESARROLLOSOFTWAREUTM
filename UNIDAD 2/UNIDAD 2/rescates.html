@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Rescates</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<img src="img/images (2).jpg" alt="Logo Patitas al Rescate" width="400">
+    <header>
+        <h1>Sistema de Control de Rescate y Adopción Animal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reportar.html">Reportar un Rescate</a></li>
+                <li><a href="rescates.html">Historial de Rescates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Registro General de Rescates Exitosos</h2>
+            <p>Lista actualizada de las últimas acciones de rescate ejecutadas por el equipo.</p>
+
+            <!-- Tabla de datos  -->
+            <table>
+                <caption>Rescates Recientes - Período Actual</caption>
+                <thead>
+                    <tr>
+                        <th id="id-caso">ID Caso</th>
+                        <th id="animal">Especie</th>
+                        <th id="fecha-res">Fecha</th>
+                        <th id="zona">Ubicación</th>
+                        <th id="estado">Estado Actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="id-caso">#001</td>
+                        <td headers="animal">Canino</td>
+                        <td headers="fecha-res">2026-11-05</td>
+                        <td headers="zona">Sector Norte</td>
+                        <td headers="estado">En Clínica Vet.</td>
+                    </tr>
+                    <tr>
+                        <td headers="id-caso">#002</td>
+                        <td headers="animal">Felino</td>
+                        <td headers="fecha-res">2026-11-08</td>
+                        <td headers="zona">Sector Sur</td>
+                        <td headers="estado">En Hogar Temporal</td>
+                    </tr>
+                    <tr>
+                        <td headers="id-caso">#003</td>
+                        <td headers="animal">Conejo </td>
+                        <td headers="fecha-res">2026-11-11</td>
+                        <td headers="zona">Condado</td>
+                        <td headers="estado">En Hogar Temporal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Patitas al Rescate y Adopción animal. Derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
